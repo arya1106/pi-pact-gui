@@ -55,5 +55,6 @@ while True:
             if item[1]:
                 args+='{arg} {argVal} '.format(arg=item[0],argVal=item[1])
         args+='&'
+        #Run pi_pact.py with args
         os.system("sudo python3 pi_pact.py {0}".format(args))
         window.close()

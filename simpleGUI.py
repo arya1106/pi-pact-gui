@@ -6,6 +6,7 @@ A bare bones GUI for pi_pact.py written with PySimpleGUI.
 import PySimpleGUI as sg
 import os
 
+#define empty string for args
 args=''
 
 """
